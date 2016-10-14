@@ -945,3 +945,25 @@ height: 100%;}
 .news-list ul li{
 	border-top: 1px solid #828282 !important;
 }
+.slideBox1{ width:100%;overflow:hidden; position:relative;}
+.slideBox1 .hd {
+    height: 15px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 5px;
+    z-index: 1;
+    left: 50%;
+    margin-left: -20px;
+}
+.slideBox1 .hd ul{ overflow:hidden; zoom:1; float:left;  }
+.slideBox1 .hd ul li{ 
+	float:left; margin-right:4px;  
+	width:8px; height:8px; 
+	background:#fff; cursor:pointer; 
+	opacity: 0.5;
+	border-radius: 50%;
+}
+.slideBox1 .hd ul li.on{ opacity: 0.8;}
+.slideBox1 .bd{ position:relative; height:100%; z-index:0;   }
+.slideBox1 .bd li{ zoom:1; vertical-align:middle; }
+.slideBox1 .bd img{ width:100%; height:auto; display:block;  }
