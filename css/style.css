@@ -867,16 +867,13 @@ height: 100%;}
 	line-height: 16px;
 	text-shadow: 1px 1px 3px rgba(0,0,0,0.5)
 }
-
-.nav-all{
-	width: 100%;
-	background: #000;
-	    height: 40px;
-	    line-height: 40px;
-	    position: absolute;
-	    top: 0;
-	    left: 0;
-	    right: 0;
+.nav-all {
+    width: 100%;
+    background: #000;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: 140px;
 }
 .news-list{
 	background: none !important;
