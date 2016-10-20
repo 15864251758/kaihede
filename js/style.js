@@ -23,6 +23,7 @@ $(document).ready(function(){
 $('.picMarquee-left .bd ul li .pic img').hover(function(){
 	var img=$(this).attr('src');
 	$('.product-block img').attr('src',img);
+	$('.product-block a').attr('href',img);
 });
 
   $(".goback").click(function() {

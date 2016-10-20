@@ -4,9 +4,14 @@
 	<meta charset="UTF-8">
 	<title>首页</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/jqzoom.css">
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/SuperSlide.js"></script>
 	<script type="text/javascript" src="js/style.js"></script>
+	<script src="js/jquery.jqzoom1.0.1.js"></script>
+	<script src="js/jqzoom.pack.1.0.1.js"></script>
+	<link type="text/css" rel="stylesheet"  href="css/jqzoom.css" />
+
 </head>
 <body>
 <div class="top">
@@ -247,7 +252,9 @@
 		</script>
 		<div class="product-box">
 			<div class="product-block clearfix">
-				<img src="images/project.jpg" alt="">
+			<a href="images/project-big.jpg" class="zoom"> 
+			<img src="images/project.jpg" title="产品详情" /> 
+			</a>
 				<div class="product-txt">
 					<p>产品描述：</p>
 					<p>1)外壳100%碳纤维</p>
@@ -268,7 +275,7 @@
 							<div class="pic"><a href="#" target="_blank"><img src="images/project1.jpg" /></a></div>
 						</li>
 						<li>
-							<div class="pic"><a href="#" target="_blank"><img src="images/project.jpg" /></a></div>
+							<div class="pic"><a href="#" target="_blank"><img src="images/94.jpg" /></a></div>
 						</li>
 						<li>
 							<div class="pic"><a href="#" target="_blank"><img src="images/project.jpg" /></a></div>
@@ -353,6 +360,22 @@
 	jQuery(".inBox").slide({ titCell:".inHd li",mainCell:".inBd" });
 	/* 外层outBox左滚动切换 */
 	jQuery(".outBox").slide({ effect:"left" });
+
+	 
+</script>
+<script type="text/javascript">
+  $(function(){
+	  var setting={zoomType:"reverse",
+	                zoomWidth:300,
+					zoomHeight:300,
+	                xOffset:20,
+					yOffset:20,
+					lens:true,
+					title:false,
+					imageOpacity:0.2,
+	           };
+	  $(".zoom").jqzoom();
+  });
 </script>
 </body>
 </html>

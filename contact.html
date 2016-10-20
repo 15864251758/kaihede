@@ -193,64 +193,35 @@
 	<p><span>当前位置：</span><a href="#">首页</a>>><a href="#">弯曲</a>>><a href="#">丰田</a></p>
 	</h1>
 </div>
-	<div class="w-1200 list clearfix news-list">
-		<div class="sideMenu list-left">
-			<div class="left-cart"></div>
-			<div class="list-left-title">
-				<h1>文章列表</h1>
-				<img src="images/list.png" alt="">
-			</div>
-			<ul>
-				<li><a href="">淘宝</a></li>
-				<li><a href="">京东首页</a></li>
-				<li><a href="">常见问题解答</a></li>
-			</ul>
-		</div><!-- sideMenu End -->
-		<script type="text/javascript">
-			jQuery(".sideMenu").slide({
-				titCell:"h3", //鼠标触发对象
-				targetCell:"ul", //与titCell一一对应，第n个titCell控制第n个targetCell的显示隐藏
-				effect:"slideDown", //targetCell下拉效果
-				delayTime:300 , //效果时间
-				triggerTime:150, //鼠标延迟触发时间（默认150）
-				defaultPlay:true,//默认是否执行效果（默认true）
-				returnDefault:true //鼠标从.sideMen移走后返回默认状态（默认false）
-				});
-		</script>
-		<div class="list-box-all">
-			<div class="list-box">
-				<div class="news-list-con">
-					<a href=""><h1>Q: 凯合得的保证是什么?</h1></a>
-					<p><span>A:</span>凯合得产品的高性能只要你拥有你的车辆和适当维护使用我们的零件        
-排气系统、进气歧管和中间冷却器有2年保修和过滤器是1年。</p>
-					<span>时间：2016-9-20</span>
+<div class="combox">
+		<div class="contactop">
+			<div class="redtitle">青岛凯合得</div>
+			<div class="contactcon clearfix">
+				<div class="cleft">
+					<h4>您好HELLO!</h4>
+					<p>欢迎您来到青岛凯合得，若您有合作意向，请您为我们留言或使用以下方式联系我们，我们将尽快给你回复，并为您提供最真诚的服务，谢谢。</p>
+					<ul class="contlist">
+						<li class="c1">联系电话： 某某某13161607016     某某某13041137152</li>
+						<li class="c2">QQ：123456</li>
+						<li class="c3">邮箱：1564@qq.com</li>
+						<li class="c4">网站：www.grwaautomotive.com</li>
+						<li class="c5">地    址:  北京市大兴区科苑路19号</li>
+					</ul>
 				</div>
-				<div class="news-list-con">
-					<a href=""><h1>Q: 凯合得的保证是什么?</h1></a>
-					<p><span>A:</span>凯合得产品的高性能只要你拥有你的车辆和适当维护使用我们的零件        
-排气系统、进气歧管和中间冷却器有2年保修和过滤器是1年。</p>
-					<span>时间：2016-9-20</span>
-				</div>
-<div class="news-list-con">
-					<a href=""><h1>Q: 凯合得的保证是什么?</h1></a>
-					<p><span>A:</span>凯合得产品的高性能只要你拥有你的车辆和适当维护使用我们的零件        
-排气系统、进气歧管和中间冷却器有2年保修和过滤器是1年。</p>
-					<span>时间：2016-9-20</span>
-				</div>
-				<div class="news-list-con">
-					<a href=""><h1>Q: 凯合得的保证是什么?</h1></a>
-					<p><span>A:</span>凯合得产品的高性能只要你拥有你的车辆和适当维护使用我们的零件        
-排气系统、进气歧管和中间冷却器有2年保修和过滤器是1年。</p>
-					<span>时间：2016-9-20</span>
+				<div class="cright">
+					<ul class="formlist">
+						<li><input type="text" placeholder="姓名 Name" class="ctxt"></li>
+						<li><input type="text" placeholder="电话 Tel" class="ctxt"></li>
+						<li><textarea name="" class="carea" id="" placeholder="留言 Message"></textarea></li>
+						<li><input type="button" value="提交" class="cbtn"></li>
+					</ul>
 				</div>
 			</div>
 		</div>
-		<p class="page">
-			<a href="#">首页</a>|<a href="#">上一页</a><a href="#">1</a><a class="on" href="#">2</a><a href="#">3</a><a href="#">...</a><a href="#">7</a><a href="#">下一页</a>|<a href="#">尾页</a>
-		</p>
+		<div class="map">
+		<div id="container" style="width:100%; height:500px"></div>
+		</div>
 	</div>
-<br>
-<br>	
 <div class="footer">
 	<div class="h4 w-1200">
 	<div class="footer-phone"><img src="images/phone.png" alt=""><span>400-400-40000</span></div>
@@ -305,5 +276,6 @@
 	/* 外层outBox左滚动切换 */
 	jQuery(".outBox").slide({ effect:"left" });
 </script>
+<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=bfac849c7f166da150388fbaedb08bf1"></script> 
 </body>
 </html>
